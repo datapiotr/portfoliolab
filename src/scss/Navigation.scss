@@ -1,0 +1,11 @@
+.navigation {
+    .nav_element {
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        font-weight: 300;
+        &:hover {
+            border: 1px solid $main;
+        }
+    }
+}

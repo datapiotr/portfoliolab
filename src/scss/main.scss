@@ -1,0 +1,21 @@
+@import "settings/colors.scss";
+@import "settings/fonts.scss";
+@import './Navigation.scss';
+@import './Navbar.scss';
+
+body {
+    font-family: $font-base;
+    margin-top: 50px;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    .nav_element {
+        margin-right: 30px;
+        padding: 8px 14px;
+        border: 1px solid transparent;
+    }
+}

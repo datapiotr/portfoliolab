@@ -1,0 +1,8 @@
+#navbar {
+    .nav_element {
+        &:hover {
+            border: 1px solid black;
+            cursor: pointer;
+        }
+    }
+}
