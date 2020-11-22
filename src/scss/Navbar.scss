@@ -1,4 +1,7 @@
 #navbar {
+    position: absolute;
+    top: 80px;
+    right: 10px;
     .nav_element {
         &:hover {
             border: 1px solid black;

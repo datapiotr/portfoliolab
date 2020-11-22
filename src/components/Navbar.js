@@ -8,7 +8,7 @@ export default function Navbar() {
             <Link
                 className='nav_element'
                 activeClass="active"
-                to="section1"
+                to="start"
                 spy={true}
                 smooth={true}
                 offset={-70}
