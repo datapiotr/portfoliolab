@@ -18,7 +18,7 @@ export default function Navbar() {
             <Link
                 className='nav_element'
                 activeClass="active"
-                to="section2"
+                to="oCoChodzi"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -28,7 +28,7 @@ export default function Navbar() {
             <Link
                 className='nav_element'
                 activeClass="active"
-                to="section3"
+                to="ONas"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -38,7 +38,7 @@ export default function Navbar() {
             <Link
                 className='nav_element'
                 activeClass="active"
-                to="section4"
+                to="fundacja"
                 spy={true}
                 smooth={true}
                 offset={-70}

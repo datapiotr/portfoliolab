@@ -3,6 +3,9 @@
 @import './Navigation.scss';
 @import './Navbar.scss';
 @import './Start.scss';
+@import './ThreeColumns.scss';
+@import './OCoChodzi.scss';
+@import './ONas.scss';
 
 body {
     font-family: $font-base;
@@ -18,5 +21,26 @@ body {
         margin-right: 30px;
         padding: 8px 14px;
         border: 1px solid transparent;
+    }
+}
+
+.title {
+    font-size: 30px;
+}
+
+.btn {
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    flex-basis: 45%;
+    background-color: transparent;
+    padding: 25px;
+    border: 1px solid #333;
+    &:hover {
+        cursor: pointer;
+    }
+    a {
+        text-decoration: none;
+        color: #333;
     }
 }
